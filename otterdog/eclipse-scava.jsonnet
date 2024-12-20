@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-scava') {
+orgs.newOrg('technology.scava', 'eclipse-scava') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
